@@ -7,7 +7,7 @@ SPDX-License-Identifier: LGPL-3-0
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Kompass.Cava</title>
+  <title>Kompass.Launcher</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta charset="utf-8" />
@@ -18,10 +18,10 @@ SPDX-License-Identifier: LGPL-3-0
   
 
   
-  <meta property="og:title" content="Kompass.Cava"/>
-  <meta property="og:description" content="Reference for Kompass.Cava"/>
-  <meta name="twitter:title" content="Kompass.Cava"/>
-  <meta name="twitter:description" content="Reference for Kompass.Cava"/>
+  <meta property="og:title" content="Kompass.Launcher"/>
+  <meta property="og:description" content="Reference for Kompass.Launcher"/>
+  <meta name="twitter:title" content="Kompass.Launcher"/>
+  <meta name="twitter:description" content="Reference for Kompass.Launcher"/>
 
 
   
@@ -60,7 +60,7 @@ SPDX-License-Identifier: LGPL-3-0
 <div class="section">
   <h5>Type</h5>
   <div class="links">
-    <a class="current" href="class.Cava.html#description">Cava</a>
+    <a class="current" href="class.Launcher.html#description">Launcher</a>
   </div>
 </div>
 
@@ -70,7 +70,7 @@ SPDX-License-Identifier: LGPL-3-0
   <h5>Constructors</h5>
   <div class="links">
   
-    <a class="ctor" href="ctor.Cava.new.html">new</a>
+    <a class="ctor" href="ctor.Launcher.new.html">new</a>
   
   </div>
 </div>
@@ -85,25 +85,16 @@ SPDX-License-Identifier: LGPL-3-0
   <h5>Instance methods</h5>
   <div class="links">
   
-    <a class="method" href="method.Cava.get_style.html">get_style</a>
+    <a class="method" href="method.Launcher.search.html">search</a>
   
-    <a class="method" href="method.Cava.set_style.html">set_style</a>
-  
-  </div>
-</div>
-
-
-
-  
-<div class="section">
-  <h5>Properties</h5>
-  <div class="links">
-  
-    <a class="property" href="property.Cava.style.html">style</a>
+    <a class="method" href="method.Launcher.search_finish.html">search_finish</a>
   
   </div>
 </div>
 
+
+
+  
 
 
   
@@ -127,7 +118,7 @@ SPDX-License-Identifier: LGPL-3-0
 <section id="main" class="content">
   <header>
     <h3>Class</h3>
-    <h1 aria-label="Name"><a href="index.html">Kompass</a><span class="sep" role="presentation"></span>Cava</h1>
+    <h1 aria-label="Name"><a href="index.html">Kompass</a><span class="sep" role="presentation"></span>Launcher</h1>
   </header>
 
   <section>
@@ -143,7 +134,7 @@ SPDX-License-Identifier: LGPL-3-0
           
         </h4>
 
-        <pre><code>class Kompass.Cava : Gtk.Widget
+        <pre><code>class Kompass.Launcher : Gtk.Box
 {
   /* No available fields */
 }</pre></code>
@@ -173,6 +164,10 @@ SPDX-License-Identifier: LGPL-3-0
 
       <div class="docblock">
         <ul>
+        
+          
+          <li class="class"><a class="external" href="javascript:void(0)" data-link="class.Box.html" data-namespace="Gtk">GtkBox</a></li>
+          
         
           
           <li class="class"><a class="external" href="javascript:void(0)" data-link="class.Widget.html" data-namespace="Gtk">GtkWidget</a></li>
@@ -205,7 +200,7 @@ SPDX-License-Identifier: LGPL-3-0
       <div class="docblock">
       
         <div class="">
-          <h6><a href="ctor.Cava.new.html">kompass_cava_new</a></h6>
+          <h6><a href="ctor.Launcher.new.html">kompass_launcher_new</a></h6>
           <div class="docblock">
             No description available.
           </div>
@@ -230,7 +225,7 @@ SPDX-License-Identifier: LGPL-3-0
       <div class="docblock">
       
         <div class="">
-          <h6><a href="method.Cava.get_style.html">kompass_cava_get_style</a></h6>
+          <h6><a href="method.Launcher.search.html">kompass_launcher_search</a></h6>
           <div class="docblock">
             No description available.
           </div>
@@ -240,7 +235,7 @@ SPDX-License-Identifier: LGPL-3-0
         </div>
       
         <div class="">
-          <h6><a href="method.Cava.set_style.html">kompass_cava_set_style</a></h6>
+          <h6><a href="method.Launcher.search_finish.html">kompass_launcher_search_finish</a></h6>
           <div class="docblock">
             No description available.
           </div>
@@ -251,6 +246,57 @@ SPDX-License-Identifier: LGPL-3-0
       
       </div>
 
+      
+        
+        <div class="toggle-wrapper default-hide ancestor-methods"><h5 style="display:block;">Methods inherited from <a class="external" href="javascript:void(0)" data-link="class.Box.html" data-namespace="Gtk">GtkBox</a> (13)</h5>
+          <div class="docblock">
+          <h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.Box.append.html">gtk_box_append</a></h6>
+            <div class="docblock">
+              <p>Adds <code>child</code> as the last child to <code>box</code>.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.Box.get_baseline_child.html">gtk_box_get_baseline_child</a></h6>
+            <div class="docblock">
+              <p>Gets the value set by&nbsp;gtk_box_set_baseline_child().</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.Box.get_baseline_position.html">gtk_box_get_baseline_position</a></h6>
+            <div class="docblock">
+              <p>Gets the value set by&nbsp;gtk_box_set_baseline_position().</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.Box.get_homogeneous.html">gtk_box_get_homogeneous</a></h6>
+            <div class="docblock">
+              <p>Returns whether the box is homogeneous (all children are the
+same&nbsp;size).</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.Box.get_spacing.html">gtk_box_get_spacing</a></h6>
+            <div class="docblock">
+              <p>Gets the value set by&nbsp;gtk_box_set_spacing().</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.Box.insert_child_after.html">gtk_box_insert_child_after</a></h6>
+            <div class="docblock">
+              <p>Inserts <code>child</code> in the position after <code>sibling</code> in the list
+of <code>box</code> children.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.Box.prepend.html">gtk_box_prepend</a></h6>
+            <div class="docblock">
+              <p>Adds <code>child</code> as the first child to <code>box</code>.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.Box.remove.html">gtk_box_remove</a></h6>
+            <div class="docblock">
+              <p>Removes a child widget from <code>box</code>.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.Box.reorder_child_after.html">gtk_box_reorder_child_after</a></h6>
+            <div class="docblock">
+              <p>Moves <code>child</code> to the position after <code>sibling</code> in the list
+of <code>box</code> children.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.Box.set_baseline_child.html">gtk_box_set_baseline_child</a></h6>
+            <div class="docblock">
+              <p>Sets the baseline child of a&nbsp;box.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.Box.set_baseline_position.html">gtk_box_set_baseline_position</a></h6>
+            <div class="docblock">
+              <p>Sets the baseline position of a&nbsp;box.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.Box.set_homogeneous.html">gtk_box_set_homogeneous</a></h6>
+            <div class="docblock">
+              <p>Sets whether or not all children of <code>box</code> are given equal space
+in the&nbsp;box.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.Box.set_spacing.html">gtk_box_set_spacing</a></h6>
+            <div class="docblock">
+              <p>Sets the number of pixels to place between children of <code>box</code>.</p>
+            </div>
+          </div>
+        </div>
+        
       
         
         <div class="toggle-wrapper default-hide ancestor-methods"><h5 style="display:block;">Methods inherited from <a class="external" href="javascript:void(0)" data-link="class.Widget.html" data-namespace="Gtk">GtkWidget</a> (162)</h5>
@@ -291,21 +337,27 @@ SPDX-License-Identifier: LGPL-3-0
       </h4>
 
       
-      <div class="docblock">
+
       
-        <div class="">
-          <h6><a href="property.Cava.style.html">Kompass.Cava:style</a></h6>
+        
+        <div class="toggle-wrapper default-hide ancestor-properties"><h5 style="display:block;">Properties inherited from <a class="external" href="javascript:void(0)" data-link="class.Box.html" data-namespace="Gtk">GtkBox</a> (4)</h5>
           <div class="docblock">
-            No description available.
-          </div>
-          <div class="docblock">
-            <p></p>
+          <h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="property.Box.baseline-child.html">Gtk.Box:baseline-child</a></h6>
+            <div class="docblock">
+              <p>The child that determines the baseline, in vertical&nbsp;orientation.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="property.Box.baseline-position.html">Gtk.Box:baseline-position</a></h6>
+            <div class="docblock">
+              <p>The position of the baseline aligned widgets if extra space is&nbsp;available.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="property.Box.homogeneous.html">Gtk.Box:homogeneous</a></h6>
+            <div class="docblock">
+              <p>Whether the children should all be the same&nbsp;size.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="property.Box.spacing.html">Gtk.Box:spacing</a></h6>
+            <div class="docblock">
+              <p>The amount of space between&nbsp;children.</p>
+            </div>
           </div>
         </div>
-      
-      </div>
-      
-
+        
       
         
         <div class="toggle-wrapper default-hide ancestor-properties"><h5 style="display:block;">Properties inherited from <a class="external" href="javascript:void(0)" data-link="class.Widget.html" data-namespace="Gtk">GtkWidget</a> (34)</h5>
@@ -441,6 +493,8 @@ with Pango&nbsp;markup.</p>
 
       
         
+      
+        
         <div class="toggle-wrapper default-hide ancestor-signals"><h5 style="display:block;">Signals inherited from <a class="external" href="javascript:void(0)" data-link="class.Widget.html" data-namespace="Gtk">GtkWidget</a> (13)</h5>
           <div class="docblock">
           <h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="signal.Widget.destroy.html">GtkWidget::destroy</a></h6>
@@ -516,7 +570,7 @@ its value set through g_object_set_property(), g_object_set(), et&nbsp;al.</p>
       </h4>
 
       <div class="docblock">
-        <pre><code>struct KompassCavaClass {
+        <pre><code>struct KompassLauncherClass {
   /* no available fields */
 }</code></pre>
       </div>
@@ -560,8 +614,6 @@ its value set through g_object_set_property(), g_object_set(), et&nbsp;al.</p>
 
 
       
-<li class="toc-list-item"><a href="#properties"><span class="link-text">Properties</span></a></li>
-
 
       
 

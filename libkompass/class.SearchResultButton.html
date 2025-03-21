@@ -7,7 +7,7 @@ SPDX-License-Identifier: LGPL-3-0
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Kompass.Cava</title>
+  <title>Kompass.SearchResultButton</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta charset="utf-8" />
@@ -18,10 +18,10 @@ SPDX-License-Identifier: LGPL-3-0
   
 
   
-  <meta property="og:title" content="Kompass.Cava"/>
-  <meta property="og:description" content="Reference for Kompass.Cava"/>
-  <meta name="twitter:title" content="Kompass.Cava"/>
-  <meta name="twitter:description" content="Reference for Kompass.Cava"/>
+  <meta property="og:title" content="Kompass.SearchResultButton"/>
+  <meta property="og:description" content="Reference for Kompass.SearchResultButton"/>
+  <meta name="twitter:title" content="Kompass.SearchResultButton"/>
+  <meta name="twitter:description" content="Reference for Kompass.SearchResultButton"/>
 
 
   
@@ -60,7 +60,7 @@ SPDX-License-Identifier: LGPL-3-0
 <div class="section">
   <h5>Type</h5>
   <div class="links">
-    <a class="current" href="class.Cava.html#description">Cava</a>
+    <a class="current" href="class.SearchResultButton.html#description">SearchResultButton</a>
   </div>
 </div>
 
@@ -70,7 +70,7 @@ SPDX-License-Identifier: LGPL-3-0
   <h5>Constructors</h5>
   <div class="links">
   
-    <a class="ctor" href="ctor.Cava.new.html">new</a>
+    <a class="ctor" href="ctor.SearchResultButton.new.html">new</a>
   
   </div>
 </div>
@@ -85,9 +85,13 @@ SPDX-License-Identifier: LGPL-3-0
   <h5>Instance methods</h5>
   <div class="links">
   
-    <a class="method" href="method.Cava.get_style.html">get_style</a>
+    <a class="method" href="method.SearchResultButton.clicked.html">clicked</a>
   
-    <a class="method" href="method.Cava.set_style.html">set_style</a>
+    <a class="method" href="method.SearchResultButton.activated.html">activated</a>
+  
+    <a class="method" href="method.SearchResultButton.get_result.html">get_result</a>
+  
+    <a class="method" href="method.SearchResultButton.set_result.html">set_result</a>
   
   </div>
 </div>
@@ -99,7 +103,7 @@ SPDX-License-Identifier: LGPL-3-0
   <h5>Properties</h5>
   <div class="links">
   
-    <a class="property" href="property.Cava.style.html">style</a>
+    <a class="property" href="property.SearchResultButton.result.html">result</a>
   
   </div>
 </div>
@@ -127,7 +131,7 @@ SPDX-License-Identifier: LGPL-3-0
 <section id="main" class="content">
   <header>
     <h3>Class</h3>
-    <h1 aria-label="Name"><a href="index.html">Kompass</a><span class="sep" role="presentation"></span>Cava</h1>
+    <h1 aria-label="Name"><a href="index.html">Kompass</a><span class="sep" role="presentation"></span>SearchResultButton</h1>
   </header>
 
   <section>
@@ -143,7 +147,7 @@ SPDX-License-Identifier: LGPL-3-0
           
         </h4>
 
-        <pre><code>class Kompass.Cava : Gtk.Widget
+        <pre><code>class Kompass.SearchResultButton : Gtk.ListBoxRow
 {
   /* No available fields */
 }</pre></code>
@@ -173,6 +177,10 @@ SPDX-License-Identifier: LGPL-3-0
 
       <div class="docblock">
         <ul>
+        
+          
+          <li class="class"><a class="external" href="javascript:void(0)" data-link="class.ListBoxRow.html" data-namespace="Gtk">GtkListBoxRow</a></li>
+          
         
           
           <li class="class"><a class="external" href="javascript:void(0)" data-link="class.Widget.html" data-namespace="Gtk">GtkWidget</a></li>
@@ -205,7 +213,7 @@ SPDX-License-Identifier: LGPL-3-0
       <div class="docblock">
       
         <div class="">
-          <h6><a href="ctor.Cava.new.html">kompass_cava_new</a></h6>
+          <h6><a href="ctor.SearchResultButton.new.html">kompass_search_result_button_new</a></h6>
           <div class="docblock">
             No description available.
           </div>
@@ -230,7 +238,7 @@ SPDX-License-Identifier: LGPL-3-0
       <div class="docblock">
       
         <div class="">
-          <h6><a href="method.Cava.get_style.html">kompass_cava_get_style</a></h6>
+          <h6><a href="method.SearchResultButton.clicked.html">kompass_search_result_button_clicked</a></h6>
           <div class="docblock">
             No description available.
           </div>
@@ -240,7 +248,27 @@ SPDX-License-Identifier: LGPL-3-0
         </div>
       
         <div class="">
-          <h6><a href="method.Cava.set_style.html">kompass_cava_set_style</a></h6>
+          <h6><a href="method.SearchResultButton.activated.html">kompass_search_result_button_activated</a></h6>
+          <div class="docblock">
+            No description available.
+          </div>
+          <div class="docblock">
+            <p></p>
+          </div>
+        </div>
+      
+        <div class="">
+          <h6><a href="method.SearchResultButton.get_result.html">kompass_search_result_button_get_result</a></h6>
+          <div class="docblock">
+            No description available.
+          </div>
+          <div class="docblock">
+            <p></p>
+          </div>
+        </div>
+      
+        <div class="">
+          <h6><a href="method.SearchResultButton.set_result.html">kompass_search_result_button_set_result</a></h6>
           <div class="docblock">
             No description available.
           </div>
@@ -251,6 +279,49 @@ SPDX-License-Identifier: LGPL-3-0
       
       </div>
 
+      
+        
+        <div class="toggle-wrapper default-hide ancestor-methods"><h5 style="display:block;">Methods inherited from <a class="external" href="javascript:void(0)" data-link="class.ListBoxRow.html" data-namespace="Gtk">GtkListBoxRow</a> (11)</h5>
+          <div class="docblock">
+          <h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.ListBoxRow.changed.html">gtk_list_box_row_changed</a></h6>
+            <div class="docblock">
+              <p>Marks <code>row</code> as changed, causing any state that depends on this
+to be&nbsp;updated.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.ListBoxRow.get_activatable.html">gtk_list_box_row_get_activatable</a></h6>
+            <div class="docblock">
+              <p>Gets whether the row is&nbsp;activatable.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.ListBoxRow.get_child.html">gtk_list_box_row_get_child</a></h6>
+            <div class="docblock">
+              <p>Gets the child widget of <code>row</code>.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.ListBoxRow.get_header.html">gtk_list_box_row_get_header</a></h6>
+            <div class="docblock">
+              <p>Returns the current header of the <code>row</code>.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.ListBoxRow.get_index.html">gtk_list_box_row_get_index</a></h6>
+            <div class="docblock">
+              <p>Gets the current index of the <code>row</code> in its <code>GtkListBox</code> container.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.ListBoxRow.get_selectable.html">gtk_list_box_row_get_selectable</a></h6>
+            <div class="docblock">
+              <p>Gets whether the row can be&nbsp;selected.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.ListBoxRow.is_selected.html">gtk_list_box_row_is_selected</a></h6>
+            <div class="docblock">
+              <p>Returns whether the child is currently selected in its
+<code>GtkListBox</code> container.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.ListBoxRow.set_activatable.html">gtk_list_box_row_set_activatable</a></h6>
+            <div class="docblock">
+              <p>Set whether the row is&nbsp;activatable.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.ListBoxRow.set_child.html">gtk_list_box_row_set_child</a></h6>
+            <div class="docblock">
+              <p>Sets the child widget of <code>self</code>.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.ListBoxRow.set_header.html">gtk_list_box_row_set_header</a></h6>
+            <div class="docblock">
+              <p>Sets the current header of the <code>row</code>.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="method.ListBoxRow.set_selectable.html">gtk_list_box_row_set_selectable</a></h6>
+            <div class="docblock">
+              <p>Set whether the row can be&nbsp;selected.</p>
+            </div>
+          </div>
+        </div>
+        
       
         
         <div class="toggle-wrapper default-hide ancestor-methods"><h5 style="display:block;">Methods inherited from <a class="external" href="javascript:void(0)" data-link="class.Widget.html" data-namespace="Gtk">GtkWidget</a> (162)</h5>
@@ -294,7 +365,7 @@ SPDX-License-Identifier: LGPL-3-0
       <div class="docblock">
       
         <div class="">
-          <h6><a href="property.Cava.style.html">Kompass.Cava:style</a></h6>
+          <h6><a href="property.SearchResultButton.result.html">Kompass.SearchResultButton:result</a></h6>
           <div class="docblock">
             No description available.
           </div>
@@ -306,6 +377,24 @@ SPDX-License-Identifier: LGPL-3-0
       </div>
       
 
+      
+        
+        <div class="toggle-wrapper default-hide ancestor-properties"><h5 style="display:block;">Properties inherited from <a class="external" href="javascript:void(0)" data-link="class.ListBoxRow.html" data-namespace="Gtk">GtkListBoxRow</a> (3)</h5>
+          <div class="docblock">
+          <h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="property.ListBoxRow.activatable.html">Gtk.ListBoxRow:activatable</a></h6>
+            <div class="docblock">
+              <p>Determines whether the ::row-activated
+signal will be emitted for this&nbsp;row.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="property.ListBoxRow.child.html">Gtk.ListBoxRow:child</a></h6>
+            <div class="docblock">
+              <p>The child&nbsp;widget.</p>
+            </div><h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="property.ListBoxRow.selectable.html">Gtk.ListBoxRow:selectable</a></h6>
+            <div class="docblock">
+              <p>Determines whether this row can be&nbsp;selected.</p>
+            </div>
+          </div>
+        </div>
+        
       
         
         <div class="toggle-wrapper default-hide ancestor-properties"><h5 style="display:block;">Properties inherited from <a class="external" href="javascript:void(0)" data-link="class.Widget.html" data-namespace="Gtk">GtkWidget</a> (34)</h5>
@@ -441,6 +530,17 @@ with Pango&nbsp;markup.</p>
 
       
         
+        <div class="toggle-wrapper default-hide ancestor-signals"><h5 style="display:block;">Signals inherited from <a class="external" href="javascript:void(0)" data-link="class.ListBoxRow.html" data-namespace="Gtk">GtkListBoxRow</a> (1)</h5>
+          <div class="docblock">
+          <h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="signal.ListBoxRow.activate.html">GtkListBoxRow::activate</a></h6>
+            <div class="docblock">
+              <p>This is a keybinding signal, which will cause this row to be&nbsp;activated.</p>
+            </div>
+          </div>
+        </div>
+        
+      
+        
         <div class="toggle-wrapper default-hide ancestor-signals"><h5 style="display:block;">Signals inherited from <a class="external" href="javascript:void(0)" data-link="class.Widget.html" data-namespace="Gtk">GtkWidget</a> (13)</h5>
           <div class="docblock">
           <h6><a class="external" href="javascript:void(0)" data-namespace="Gtk" data-link="signal.Widget.destroy.html">GtkWidget::destroy</a></h6>
@@ -516,7 +616,7 @@ its value set through g_object_set_property(), g_object_set(), et&nbsp;al.</p>
       </h4>
 
       <div class="docblock">
-        <pre><code>struct KompassCavaClass {
+        <pre><code>struct KompassSearchResultButtonClass {
   /* no available fields */
 }</code></pre>
       </div>
