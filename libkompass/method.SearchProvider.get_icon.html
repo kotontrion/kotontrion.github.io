@@ -7,7 +7,7 @@ SPDX-License-Identifier: LGPL-3-0
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Kompass.SearchProvider.get_name</title>
+  <title>Kompass.SearchProvider.get_icon</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta charset="utf-8" />
@@ -18,10 +18,10 @@ SPDX-License-Identifier: LGPL-3-0
   
 
   
-  <meta property="og:title" content="Kompass.SearchProvider.get_name"/>
-  <meta property="og:description" content="Reference for Kompass.SearchProvider.get_name"/>
-  <meta name="twitter:title" content="Kompass.SearchProvider.get_name"/>
-  <meta name="twitter:description" content="Reference for Kompass.SearchProvider.get_name"/>
+  <meta priority="og:title" content="Kompass.SearchProvider.get_icon"/>
+  <meta priority="og:description" content="Reference for Kompass.SearchProvider.get_icon"/>
+  <meta name="twitter:title" content="Kompass.SearchProvider.get_icon"/>
+  <meta name="twitter:description" content="Reference for Kompass.SearchProvider.get_icon"/>
 
 
   
@@ -64,18 +64,18 @@ SPDX-License-Identifier: LGPL-3-0
   </div>
 </div>
 <div class="section">
-  <h5>Virtual methods</h5>
+  <h5>Methods</h5>
   <div class="links">
   
-    <a class="method" href="vfunc.SearchProvider.search.html">search</a>
+    <a class="method" href="method.SearchProvider.search.html">search</a>
   
-    <a class="method" href="vfunc.SearchProvider.search_finish.html">search_finish</a>
+    <a class="method" href="method.SearchProvider.search_finish.html">search_finish</a>
   
-    <a class="method" href="vfunc.SearchProvider.get_results.html">get_results</a>
+    <a class="method" href="method.SearchProvider.get_results.html">get_results</a>
   
-    <a class="method current" href="vfunc.SearchProvider.get_name.html">get_name</a>
+    <a class="method" href="method.SearchProvider.get_name.html">get_name</a>
   
-    <a class="method" href="vfunc.SearchProvider.get_icon.html">get_icon</a>
+    <a class="method current" href="method.SearchProvider.get_icon.html">get_icon</a>
   
   </div>
 </div>
@@ -90,8 +90,8 @@ SPDX-License-Identifier: LGPL-3-0
     
 <section id="main" class="content">
   <header>
-    <h3>Virtual Method</h3>
-    <h1><a href="index.html">Kompass</a><span class="sep"></span><a href="iface.SearchProvider.html">SearchProvider</a><span class="sep"></span>get_name</h1>
+    <h3>Method</h3>
+    <h1><a href="index.html">Kompass</a><span class="sep"></span><a href="iface.SearchProvider.html">SearchProvider</a><span class="sep"></span>get_icon</h1>
   </header>
 
   <section>
@@ -100,15 +100,15 @@ SPDX-License-Identifier: LGPL-3-0
     </div>
 
     <div class="declaration toggle-wrapper">
-      <h4 id="declaration">
+      <h4 style="display:flex;" id="declaration">
         Declaration
-        <a href="#declaration" class="anchor"></a>
+        <a class="anchor" href="#declaration"></a>
         
       </h4>
 
       <div class="docblock c-decl">
-        <pre><code><div class="highlight"><pre><span></span><span class="k">const</span><span class="w"> </span><span class="n">gchar</span><span class="o">*</span>
-<span class="n">get_name</span><span class="w"> </span><span class="p">(</span>
+        <pre><code><div class="highlight"><pre><span></span><span class="n">GIcon</span><span class="o">*</span>
+<span class="n">kompass_search_provider_get_icon</span><span class="w"> </span><span class="p">(</span>
 <span class="w">  </span><span class="n">KompassSearchProvider</span><span class="o">*</span><span class="w"> </span><span class="n">self</span>
 <span class="p">)</span>
 </pre></div>
@@ -117,9 +117,9 @@ SPDX-License-Identifier: LGPL-3-0
     </div>
 
     <div class="description toggle-wrapper">
-      <h4 id="description">
+      <h4 style="display:flex;" id="description">
         Description
-        <a href="#description" class="anchor"></a>
+        <a class="anchor" href="#description"></a>
         
       </h4>
 
@@ -128,6 +128,10 @@ SPDX-License-Identifier: LGPL-3-0
       </div>
 
       <div class="docblock">
+        
+        
+        
+        
         
         
         
@@ -147,8 +151,8 @@ SPDX-License-Identifier: LGPL-3-0
 
       <div class="docblock">
         <div class="returns">
-          <div>
-            <p><em>Type:</em>&nbsp;<code>const gchar*</code></p>
+          <div class="arg-description">
+            <p><em>Type:</em>&nbsp;<a href="javascript:void(0)" data-link="iface.Icon.html" data-namespace="Gio" class="external"><code>GIcon</code></a></p>
             <p>No description available.</p>
           </div>
           <div>
@@ -158,7 +162,7 @@ SPDX-License-Identifier: LGPL-3-0
             
             <tr><td title="transfer: none">The returned data is owned by the instance.</td></tr>
             
-            <tr><td>The value is a NUL terminated UTF-8 string.</td></tr>
+            
             </table>
           </div>
         </div>

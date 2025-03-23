@@ -100,6 +100,7 @@ SPDX-License-Identifier: LGPL-3-0
       <div class="docblock">
         <pre><code><div class="highlight"><pre><span></span><span class="n">KompassDBusSearchProvider</span><span class="o">*</span>
 <span class="n">kompass_dbus_search_provider_new</span><span class="w"> </span><span class="p">(</span>
+<span class="w">  </span><span class="k">const</span><span class="w"> </span><span class="n">gchar</span><span class="o">*</span><span class="w"> </span><span class="n">desktop_id</span><span class="p">,</span>
 <span class="w">  </span><span class="k">const</span><span class="w"> </span><span class="n">gchar</span><span class="o">*</span><span class="w"> </span><span class="n">bus_name</span><span class="p">,</span>
 <span class="w">  </span><span class="k">const</span><span class="w"> </span><span class="n">gchar</span><span class="o">*</span><span class="w"> </span><span class="n">path</span>
 <span class="p">)</span>
@@ -141,6 +142,23 @@ SPDX-License-Identifier: LGPL-3-0
 
       <div class="docblock">
         <dl class="arguments">
+          
+          <dt class="arg-name"><code>desktop_id</code></dt>
+          <dd class="arg-description">
+            <p><em>Type:</em>&nbsp;<code>const gchar*</code></p>
+            <p>No description available.</p>
+            <table>
+            
+            
+            
+            
+            
+            
+            
+            <tr><td title="transfer: none">The data is owned by the caller of the function.</td></tr>
+            <tr><td>The value is a NUL terminated UTF-8 string.</td></tr>
+            </table>
+          </dd>
           
           <dt class="arg-name"><code>bus_name</code></dt>
           <dd class="arg-description">
