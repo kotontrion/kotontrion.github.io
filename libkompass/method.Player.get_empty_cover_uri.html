@@ -7,7 +7,7 @@ SPDX-License-Identifier: LGPL-3-0
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Kompass.Player.get_cover_file</title>
+  <title>Kompass.Player.get_empty_cover_uri</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta charset="utf-8" />
@@ -18,10 +18,10 @@ SPDX-License-Identifier: LGPL-3-0
   
 
   
-  <meta priority="og:title" content="Kompass.Player.get_cover_file"/>
-  <meta priority="og:description" content="Reference for Kompass.Player.get_cover_file"/>
-  <meta name="twitter:title" content="Kompass.Player.get_cover_file"/>
-  <meta name="twitter:description" content="Reference for Kompass.Player.get_cover_file"/>
+  <meta priority="og:title" content="Kompass.Player.get_empty_cover_uri"/>
+  <meta priority="og:description" content="Reference for Kompass.Player.get_empty_cover_uri"/>
+  <meta name="twitter:title" content="Kompass.Player.get_empty_cover_uri"/>
+  <meta name="twitter:description" content="Reference for Kompass.Player.get_empty_cover_uri"/>
 
 
   
@@ -81,9 +81,9 @@ SPDX-License-Identifier: LGPL-3-0
   
     <a class="method" href="method.Player.set_player.html">set_player</a>
   
-    <a class="method current" href="method.Player.get_cover_file.html">get_cover_file</a>
+    <a class="method" href="method.Player.get_cover_file.html">get_cover_file</a>
   
-    <a class="method" href="method.Player.get_empty_cover_uri.html">get_empty_cover_uri</a>
+    <a class="method current" href="method.Player.get_empty_cover_uri.html">get_empty_cover_uri</a>
   
     <a class="method" href="method.Player.set_empty_cover_uri.html">set_empty_cover_uri</a>
   
@@ -101,7 +101,7 @@ SPDX-License-Identifier: LGPL-3-0
 <section id="main" class="content">
   <header>
     <h3>Method</h3>
-    <h1><a href="index.html">Kompass</a><span class="sep"></span><a href="class.Player.html">Player</a><span class="sep"></span>get_cover_file</h1>
+    <h1><a href="index.html">Kompass</a><span class="sep"></span><a href="class.Player.html">Player</a><span class="sep"></span>get_empty_cover_uri</h1>
   </header>
 
   <section>
@@ -117,8 +117,8 @@ SPDX-License-Identifier: LGPL-3-0
       </h4>
 
       <div class="docblock c-decl">
-        <pre><code><div class="highlight"><pre><span></span><span class="n">GFile</span><span class="o">*</span>
-<span class="n">kompass_player_get_cover_file</span><span class="w"> </span><span class="p">(</span>
+        <pre><code><div class="highlight"><pre><span></span><span class="k">const</span><span class="w"> </span><span class="n">gchar</span><span class="o">*</span>
+<span class="n">kompass_player_get_empty_cover_uri</span><span class="w"> </span><span class="p">(</span>
 <span class="w">  </span><span class="n">KompassPlayer</span><span class="o">*</span><span class="w"> </span><span class="n">self</span>
 <span class="p">)</span>
 </pre></div>
@@ -162,7 +162,7 @@ SPDX-License-Identifier: LGPL-3-0
       <div class="docblock">
         <div class="returns">
           <div class="arg-description">
-            <p><em>Type:</em>&nbsp;<a href="javascript:void(0)" data-link="iface.File.html" data-namespace="Gio" class="external"><code>GFile</code></a></p>
+            <p><em>Type:</em>&nbsp;<code>const gchar*</code></p>
             <p>No description available.</p>
           </div>
           <div>
@@ -172,7 +172,7 @@ SPDX-License-Identifier: LGPL-3-0
             
             <tr><td title="transfer: none">The returned data is owned by the instance.</td></tr>
             
-            
+            <tr><td>The value is a NUL terminated UTF-8 string.</td></tr>
             </table>
           </div>
         </div>

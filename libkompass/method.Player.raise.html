@@ -7,7 +7,7 @@ SPDX-License-Identifier: LGPL-3-0
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Kompass.Player:player</title>
+  <title>Kompass.Player.raise</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta charset="utf-8" />
@@ -18,10 +18,10 @@ SPDX-License-Identifier: LGPL-3-0
   
 
   
-  <meta property="og:title" content="Kompass.Player:player"/>
-  <meta property="og:description" content="Reference for property Kompass.Player:player"/>
-  <meta name="twitter:title" content="Kompass.Player:player"/>
-  <meta name="twitter:description" content="Reference for property Kompass.Player:player"/>
+  <meta priority="og:title" content="Kompass.Player.raise"/>
+  <meta priority="og:description" content="Reference for Kompass.Player.raise"/>
+  <meta name="twitter:title" content="Kompass.Player.raise"/>
+  <meta name="twitter:description" content="Reference for Kompass.Player.raise"/>
 
 
   
@@ -64,14 +64,28 @@ SPDX-License-Identifier: LGPL-3-0
   </div>
 </div>
 <div class="section">
-  <h5>Properties</h5>
+  <h5>Methods</h5>
   <div class="links">
   
-    <a class="property current"href="property.Player.player.html">player</a>
+    <a class="method" href="method.Player.next.html">next</a>
   
-    <a class="property"href="property.Player.cover-file.html">cover-file</a>
+    <a class="method" href="method.Player.prev.html">prev</a>
   
-    <a class="property"href="property.Player.empty-cover-uri.html">empty-cover-uri</a>
+    <a class="method" href="method.Player.play_pause.html">play_pause</a>
+  
+    <a class="method current" href="method.Player.raise.html">raise</a>
+  
+    <a class="method" href="method.Player.pause_icon.html">pause_icon</a>
+  
+    <a class="method" href="method.Player.get_player.html">get_player</a>
+  
+    <a class="method" href="method.Player.set_player.html">set_player</a>
+  
+    <a class="method" href="method.Player.get_cover_file.html">get_cover_file</a>
+  
+    <a class="method" href="method.Player.get_empty_cover_uri.html">get_empty_cover_uri</a>
+  
+    <a class="method" href="method.Player.set_empty_cover_uri.html">set_empty_cover_uri</a>
   
   </div>
 </div>
@@ -86,29 +100,36 @@ SPDX-License-Identifier: LGPL-3-0
     
 <section id="main" class="content">
   <header>
-    <h3>Property</h3>
-    <h1><a href="index.html">Kompass</a><span class="sep"></span><a href="class.Player.html">Player</a>:player</h1>
+    <h3>Method</h3>
+    <h1><a href="index.html">Kompass</a><span class="sep"></span><a href="class.Player.html">Player</a><span class="sep"></span>raise</h1>
   </header>
 
   <section>
     <div class="docblock">
       <p></p>
     </div>
+
     <div class="declaration toggle-wrapper">
-      <h4 id="declaration">
+      <h4 style="display:flex;" id="declaration">
         Declaration
-        <a href="#declaration" class="anchor"></a>
+        <a class="anchor" href="#declaration"></a>
+        
       </h4>
 
-      <div class="docblock">
-        <pre><code>property player: AstalMpris.Player [ read, write ]</code></pre>
+      <div class="docblock c-decl">
+        <pre><code><div class="highlight"><pre><span></span><span class="kt">void</span>
+<span class="n">kompass_player_raise</span><span class="w"> </span><span class="p">(</span>
+<span class="w">  </span><span class="n">KompassPlayer</span><span class="o">*</span><span class="w"> </span><span class="n">self</span>
+<span class="p">)</span>
+</pre></div>
+</code></pre>
       </div>
     </div>
 
     <div class="description toggle-wrapper">
       <h4 style="display:flex;" id="description">
         Description
-        <a href="#description" class="anchor"></a>
+        <a class="anchor" href="#description"></a>
         
       </h4>
 
@@ -117,8 +138,10 @@ SPDX-License-Identifier: LGPL-3-0
       </div>
 
       <div class="docblock">
-        <p>
-          Type:<a href="javascript:void(0)" data-link="class.Player.html" data-namespace="AstalMpris" class="external"><code>AstalMprisPlayer</code></a></p>
+        
+        
+        
+        
         
         
         
@@ -127,21 +150,9 @@ SPDX-License-Identifier: LGPL-3-0
       
     </div>
 
-    <div class="flags toggle-wrapper">
-      <h4 id="flags">
-        Flags
-        <a href="#flags" class="anchor"></a>
-      </h4>
+    
 
-      <div class="docblock">
-      <table>
-        <tr><td>Readable</td><td><b>yes</b></td></tr>
-        <tr><td>Writable</td><td><b>yes</b></td></tr>
-        <tr><td>Construct</td><td><b>no</b></td></tr>
-        <tr><td>Construct only</td><td><b>no</b></td></tr>
-      </table>
-      </div>
-    </div>
+    
 
   </section>
 </section>
