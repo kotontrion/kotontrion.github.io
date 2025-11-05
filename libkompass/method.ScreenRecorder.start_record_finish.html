@@ -7,7 +7,7 @@ SPDX-License-Identifier: MIT
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Kompass.ScreenRecorder.stop_record</title>
+  <title>Kompass.ScreenRecorder.start_record_finish</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta charset="utf-8" />
@@ -18,10 +18,10 @@ SPDX-License-Identifier: MIT
   
 
   
-  <meta priority="og:title" content="Kompass.ScreenRecorder.stop_record"/>
-  <meta priority="og:description" content="Reference for Kompass.ScreenRecorder.stop_record"/>
-  <meta name="twitter:title" content="Kompass.ScreenRecorder.stop_record"/>
-  <meta name="twitter:description" content="Reference for Kompass.ScreenRecorder.stop_record"/>
+  <meta priority="og:title" content="Kompass.ScreenRecorder.start_record_finish"/>
+  <meta priority="og:description" content="Reference for Kompass.ScreenRecorder.start_record_finish"/>
+  <meta name="twitter:title" content="Kompass.ScreenRecorder.start_record_finish"/>
+  <meta name="twitter:description" content="Reference for Kompass.ScreenRecorder.start_record_finish"/>
 
 
   
@@ -73,9 +73,9 @@ SPDX-License-Identifier: MIT
   
     <a class="method" href="method.ScreenRecorder.start_record.html">start_record</a>
   
-    <a class="method" href="method.ScreenRecorder.start_record_finish.html">start_record_finish</a>
+    <a class="method current" href="method.ScreenRecorder.start_record_finish.html">start_record_finish</a>
   
-    <a class="method current" href="method.ScreenRecorder.stop_record.html">stop_record</a>
+    <a class="method" href="method.ScreenRecorder.stop_record.html">stop_record</a>
   
     <a class="method" href="method.ScreenRecorder.get_recording.html">get_recording</a>
   
@@ -93,7 +93,7 @@ SPDX-License-Identifier: MIT
 <section id="main" class="content">
   <header>
     <h3>Method</h3>
-    <h1><a href="index.html">Kompass</a><span class="sep"></span><a href="class.ScreenRecorder.html">ScreenRecorder</a><span class="sep"></span>stop_record</h1>
+    <h1><a href="index.html">Kompass</a><span class="sep"></span><a href="class.ScreenRecorder.html">ScreenRecorder</a><span class="sep"></span>start_record_finish</h1>
   </header>
 
   <section>
@@ -110,8 +110,9 @@ SPDX-License-Identifier: MIT
 
       <div class="docblock c-decl">
         <pre><code><div class="highlight"><pre><span></span><span class="kt">void</span>
-<span class="n">kompass_screen_recorder_stop_record</span><span class="w"> </span><span class="p">(</span>
-<span class="w">  </span><span class="n">KompassScreenRecorder</span><span class="o">*</span><span class="w"> </span><span class="n">self</span>
+<span class="n">kompass_screen_recorder_start_record_finish</span><span class="w"> </span><span class="p">(</span>
+<span class="w">  </span><span class="n">KompassScreenRecorder</span><span class="o">*</span><span class="w"> </span><span class="n">self</span><span class="p">,</span>
+<span class="w">  </span><span class="n">GAsyncResult</span><span class="o">*</span><span class="w"> </span><span class="n">_res_</span>
 <span class="p">)</span>
 </pre></div>
 </code></pre>
@@ -142,6 +143,40 @@ SPDX-License-Identifier: MIT
       
     </div>
 
+    
+    <div class="parameters toggle-wrapper">
+      <h4 id="parameters">
+        Parameters
+        <a href="#parameters" class="anchor"></a>
+      </h4>
+
+      <div class="docblock">
+        <dl class="arguments">
+          
+
+          
+          <dt class="arg-name"><code>_res_</code></dt>
+          <dd class="arg-description">
+            <p><em>Type:</em>&nbsp;<a href="javascript:void(0)" data-link="iface.AsyncResult.html" data-namespace="Gio" class="external"><code>GAsyncResult</code></a></p>
+            <p>No description available.</p>
+            <table>
+            
+            
+            
+            
+            
+            
+            
+            <tr><td title="transfer: none">The data is owned by the caller of the method.</td></tr>
+            
+            </table>
+          </dd>
+          
+
+          
+        </dl>
+      </div>
+    </div>
     
 
     

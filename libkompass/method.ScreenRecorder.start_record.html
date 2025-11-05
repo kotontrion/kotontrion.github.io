@@ -73,6 +73,8 @@ SPDX-License-Identifier: MIT
   
     <a class="method current" href="method.ScreenRecorder.start_record.html">start_record</a>
   
+    <a class="method" href="method.ScreenRecorder.start_record_finish.html">start_record_finish</a>
+  
     <a class="method" href="method.ScreenRecorder.stop_record.html">stop_record</a>
   
     <a class="method" href="method.ScreenRecorder.get_recording.html">get_recording</a>
@@ -110,7 +112,9 @@ SPDX-License-Identifier: MIT
         <pre><code><div class="highlight"><pre><span></span><span class="kt">void</span>
 <span class="n">kompass_screen_recorder_start_record</span><span class="w"> </span><span class="p">(</span>
 <span class="w">  </span><span class="n">KompassScreenRecorder</span><span class="o">*</span><span class="w"> </span><span class="n">self</span><span class="p">,</span>
-<span class="w">  </span><span class="k">const</span><span class="w"> </span><span class="n">gchar</span><span class="o">*</span><span class="w"> </span><span class="n">file_path</span>
+<span class="w">  </span><span class="k">const</span><span class="w"> </span><span class="n">gchar</span><span class="o">*</span><span class="w"> </span><span class="n">file_path</span><span class="p">,</span>
+<span class="w">  </span><span class="n">GAsyncReadyCallback</span><span class="w"> </span><span class="n">_callback_</span><span class="p">,</span>
+<span class="w">  </span><span class="kt">void</span><span class="o">*</span><span class="w"> </span><span class="n">_callback__target</span>
 <span class="p">)</span>
 </pre></div>
 </code></pre>
@@ -167,6 +171,40 @@ SPDX-License-Identifier: MIT
             
             <tr><td title="transfer: none">The data is owned by the caller of the method.</td></tr>
             <tr><td>The value is a NUL terminated UTF-8 string.</td></tr>
+            </table>
+          </dd>
+          
+          <dt class="arg-name"><code>_callback_</code></dt>
+          <dd class="arg-description">
+            <p><em>Type:</em>&nbsp;<a href="javascript:void(0)" data-link="callback.AsyncReadyCallback.html" data-namespace="Gio" class="external"><code>GAsyncReadyCallback</code></a></p>
+            <p>No description available.</p>
+            <table>
+            
+            <tr><td>The argument can be <code>NULL</code>.</td></tr>
+            
+            
+            
+            
+            
+            
+            
+            </table>
+          </dd>
+          
+          <dt class="arg-name"><code>_callback__target</code></dt>
+          <dd class="arg-description">
+            <p><em>Type:</em>&nbsp;<code>void*</code></p>
+            <p>No description available.</p>
+            <table>
+            
+            <tr><td>The argument can be <code>NULL</code>.</td></tr>
+            
+            
+            
+            
+            
+            <tr><td title="transfer: none">The data is owned by the caller of the method.</td></tr>
+            
             </table>
           </dd>
           
